@@ -1,5 +1,5 @@
 import React from 'react';
-import {SafeAreaView, Text, StyleSheet} from 'react-native';
+import {StyleSheet, SafeAreaView, Text} from 'react-native';
 
 function Header({title, colorScheme}) {
   return (
@@ -10,7 +10,7 @@ function Header({title, colorScheme}) {
 }
 
 Header.defaultProps = {
-  appName: 'Boring Weather App',
+  title: 'Boring Weather App',
 };
 
 const styles = StyleSheet.create({
